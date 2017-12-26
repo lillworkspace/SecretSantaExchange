@@ -1,5 +1,5 @@
 body  {
-    background-image: url("images/seigaiha.png");
+    background-image: url("images/background.jpg");
     background-attachment: fixed;
 }
 .box {
@@ -13,9 +13,9 @@ body  {
  }
 .left {
 	background-image: url(""); 
-	background-color: yellow;
-	width: 3px;
-	left: -3px;
+	background-color: red;
+	width: 15px;
+	left: -15px;
 	height: auto;
 	top: 0px;
 	bottom: 0px;
@@ -23,24 +23,24 @@ body  {
 }
 .right {
 	background-image: url(""); 
-	background-color: yellow;
-	width: 3px;
-	right: -3px;
+	background-color: red;
+	width: 15px;
+	right: -15px;
 	height: auto;
 	top: 0px;
 	bottom: 0px;
 	position: absolute;
 }
 h1 {
-	color: yellow;
+	color: red;
 	text-align: center;
 	font-family: Impact, Charcoal, sans-serif;
 	font-size: 65;
 	font-weight: lighter;
-	text-shadow: -2px 0px orange, 0px 2px orange, 2px 0px orange, 0 -2px orange;
+	/* text-shadow: -2px 0px orange, 0px 2px orange, 2px 0px orange, 0 -2px orange; */
 }
 img {
-	max-width: 700px;
+	max-width: 500px;
 	position: center;
 }
 p {
